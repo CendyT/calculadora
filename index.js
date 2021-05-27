@@ -22,6 +22,4 @@ function doOperation(operator, value1, value2) {
         throw new Error('Operação inválida');
     }
 }
-
-
-console.log('O resultado é', doOperation(oper, valor, valor1)) 
+console.log('O resultado é ', doOperation(oper, valor, valor1)) 
